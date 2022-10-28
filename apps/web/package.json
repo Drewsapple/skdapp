@@ -12,6 +12,8 @@
     "format": "prettier --write --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
+    "@wagmi/core": "^0.6.6",
+    "ethers": "^5.7.2",
     "wagmi-svelte": "workspace:*"
   },
   "devDependencies": {

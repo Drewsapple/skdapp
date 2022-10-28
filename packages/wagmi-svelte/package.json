@@ -1,7 +1,7 @@
 {
-  "name": "ui",
+  "name": "wagmi-svelte",
   "version": "0.0.0",
-  "description": "Styles and components for use in svelte websites",
+  "description": "Svelte wagmi implementation",
   "type": "module",
   "module": "index.ts",
   "svelte": "index.ts",
@@ -13,5 +13,9 @@
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
     "svelte": "^3.9.2"
+  },
+  "dependencies": {
+    "@wagmi/core": "^0.6.6",
+    "ethers": "^5.7.2"
   }
 }
